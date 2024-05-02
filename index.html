@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-sacled=1.0">
+    <title>Sistema de Gestão Acadêmica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h5>SISTEMA DE GESTÃO ACADÊMICA</h5>
+    <h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
+<form action="" method="post">
+    <label for="login">Login</label>
+        <input type="text" name="login" id="ilogin" size="50">
+<br>
+    <label for="senha">Senha</label>
+        <input type="text" name="senha" id="isenha" size="50">
+<br>
+    <label for="status">Status</label>
+        <select name="status" id="istatus">
+            <option value="inativo">Inativo</option>
+            <option value="ativo">Ativo</option>
+        </select>
+<br>
+    <label for="tipo">Tipo</label>
+        <input type="radio" name="um" id="tecnico">Técnico
+        <input type="radio" name="um" id="professor">Professor
+        <input type="radio" name="um" id="aluno">Aluno
+<br>
+    <label for="data">Data de Criação</label>
+        <input type="text" name="data" id="data">
+<br>
+    <label for="pefil">Perfil: </label>
+        <input type="radio" name="convidado" id="convidado">Convidado
+        <input type="radio" name="administrador" id="administrador">Administrador
+<br>
+    <label for="observacao">Observações</label>
+    <textarea name="observacao" id="observacao" cols="40" rows="6"></textarea>
+<br>
+    <label for="modulos">Módulos</label>
+    <input type="checkbox" name="compras" id="compras">Compras
+    <input type="checkbox" name="biblioteca" id="biblioteca">Biblioteca
+    <input type="checkbox" name="academico" id="academico">Acadêmico
+<br>
+    <input type="checkbox" name="documentacao" id="documentacao">Documentação
+    <input type="checkbox" name="rh" id="rh">Recursos Humanos
+<br>
+    <input type="submit" value="Cadastrar">
+    <input type="reset" value="Excluir">
+</form>
+</body>
+</html>
